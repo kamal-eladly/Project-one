@@ -1,4 +1,6 @@
 
+
+
 $('.buttons button').click(function(){
   $(this).addClass('active');
   $(this).siblings().removeClass('active');
@@ -48,3 +50,11 @@ for(let i=0;i<input.length;i++){
     this.style.borderBottom="2px solid white";
   });
 }
+
+$(document).ready(function(){
+  $('.sk-folding-cube').fadeOut(1000,function () {
+    $('.loading').fadeOut(1000,function(){
+    $('body').css('overflowY','visible')
+  })  
+  });
+})
