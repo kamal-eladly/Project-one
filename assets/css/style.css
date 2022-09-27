@@ -8,7 +8,14 @@
     box-sizing: border-box;
     
 }
+.row{
+    overflow: hidden !important;
+}
 
+.container{
+    overflow: hidden !important;
+
+}
 
 
 /******** end of navbar ***********/
